@@ -1,0 +1,45 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #e91e63, #3f51b5);
+}
+
+.container {
+  display: flex;
+}
+
+h1, footer, .display {
+  color: rgba(255, 255, 255, 0.91);
+  text-align: center;
+}
+
+.display, .container {
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  width: 217px;
+  margin: 5px;
+  font-size: 25px;
+  padding: 5px;
+  border: none;
+  color: white;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  background-color: #607d8b;
+}
+
+
+

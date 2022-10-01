@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Calcolatrice" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Calcolatrice</title>
+  </head>
+  <body>
+    <header>
+      <h1>Calcolatrice</h1>
+    <main class="container">
+      <section >
+        <div>
+          <input type="text" id="display" name="display" class="display" disabled>
+        </div>
+        <div class="keyboard">
+          <div>
+            <button class="btn" onclick="insert(7)">7</button> 
+            <button class="btn" onclick="insert(8)">8</button> 
+            <button class="btn" onclick="insert(9)">9</button> 
+            <button class="btn" onclick="insert('*')">x</button>
+          </div>
+          <div>
+            <button class="btn" onclick="insert(4)">4</button> 
+            <button class="btn" onclick="insert(5)">5</button> 
+            <button class="btn" onclick="insert(6)">6</button> 
+            <button class="btn" onclick="insert('-')">-</button> 
+          </div>
+          <div>
+            <button class="btn" onclick="insert(1)">1</button> 
+            <button class="btn" onclick="insert(2)">2</button> 
+            <button class="btn" onclick="insert(3)">3</button> 
+            <button class="btn" onclick="insert('+')">+</button> 
+          </div>
+          <div>
+            <button class="btn" onclick="reset()">c</button> 
+            <button class="btn" onclick="insert(0)">0</button>
+            <button class="btn" value="=" onclick="result()">=</button>
+            <button class="btn" onclick="insert('/')">/</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; <time>2022</time> <address>Daniele Morello</address></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
